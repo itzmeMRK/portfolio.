@@ -1,1 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h2 span {
+    color: cyan;
+}
+
+.btn {
+    background: cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Projects */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
 
